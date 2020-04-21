@@ -14,7 +14,7 @@
       </div>
       <input type="text" 
       #temp 
-      (keyup)="onKey(temp.value)" 
+      (input)="onKey(temp.value)" 
       class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">     
     </div>
     <p>{{value}}</p>
