@@ -2,6 +2,10 @@
   margin-top: 40px;
   border: 2px solid darkmagenta;
 }
+.table{
+  margin-top: 20px;
+  border: 1px solid black;
+}
 
 .active {
   background-color: #0c5460;

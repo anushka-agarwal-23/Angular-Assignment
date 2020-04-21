@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
+  value = '';
 
+  onKey(value: string) { 
+    this.value = value
+  }
 }
